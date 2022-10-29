@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+    background-image: url(../Bg-img/4659198.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+    /* background-size: 100% 600px; */
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(../Bg-img/4659198.jpg);
+    }
+}
+
+#Header-Section{
+    padding: 20px;
+    font-family: cursive;
+}
+
+#Body-Section h2{
+    font-family: cursive;
+}
+
+#Body-Section{
+    padding: 15px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    font-family: cursive;
+    border: 2px solid black;
+
+}
+
+#logbtn{
+    padding: 7px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+p{
+    font-family: cursive;
+}
+
+#profile{
+    /* background-color: white; */
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+
+#Group{
+    /* background-color: white; */
+    width: 60%;
+    padding: 20px;
+    float: right; 
+}
+
+b{
+    font-family: cursive;
+
+}
+
+#logout-button{
+  /* float: right; */
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+    

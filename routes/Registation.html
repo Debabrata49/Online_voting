@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System - Registration</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <style>
+        #address{
+            width: 35%;
+        }
+        #img-part{
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 35%;
+            font-family: cursive;
+
+        }
+        #role{
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 35%;
+            height: 40px;
+            padding: 7px;
+            font-family: cursive;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div id="Header-Section">
+            <h1>Online Voting System</h1>
+        </div>
+        <hr>
+        <div id="Body-Section">
+            <h2>Registration</h2><br>
+            <form action="../api/register.php" method="post" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Enter Your Name">
+                <input type="number" name="mobile" placeholder="Enter Your Phone No"><br><br>
+                <input type="password" name="password" placeholder="Enter Password">
+                <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+                <input type="text" name="address" id="address" placeholder="Enter Your Address"><br><br>
+                
+                    <div id="img-part">
+                    Upload image: <input type="file" name="photo"></p>
+                    </div><br>
+                    <div id="role">
+                        Select Role: <select name="role" id="" style="font-family: cursive;
+                        ">
+                            <option value="1">Voter</option>
+                            <option value="2">Group</option>
+                        </select>
+                    </div><br>
+                
+                <button
+                    style="padding: 5px;
+                            font-size: 15px;
+                            background-color: #3498db;
+                            color: white;
+                            border-radius: 5px;
+                            text-decoration: none;"    
+                >Register</button><br><br>
+                <p>Already User? <a href="../login.html">Login here</a></p> 
+
+
+            </form>
+        </div>
+    </center> 
+</body>
+</html>
